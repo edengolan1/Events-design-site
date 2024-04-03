@@ -1,0 +1,29 @@
+.example {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.hover-grow {
+    transition: transform 0.3s ease; 
+}
+.hover-grow:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .example {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 2rem;
+        column-gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}

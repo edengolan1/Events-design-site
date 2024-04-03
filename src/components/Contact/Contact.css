@@ -1,0 +1,117 @@
+.contact-details {
+    width: 100%;
+    height: 31rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.social-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+}
+.social-contact>div {
+    margin: 11px;
+}
+.contactme {
+    border-bottom: 2px solid white;
+    padding: 8px;
+    font-size: 23px;
+    font-weight: bolder;
+    animation: bounce1 1s;
+}
+.form>input,.buttonSubmit,textarea {
+    width: 24rem;
+    height: 1.8rem;
+    border-radius: 10px;
+    margin-top: 16px;
+    text-align: end;
+    padding: 10px;
+}
+textarea {
+    height: 8rem;
+    resize: none;
+}
+.div-button :hover {
+    background-color: black;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+.div-button {
+    margin-top: 7px;
+}
+.buttonSubmit {
+    width: 16rem;
+    height: 2.4rem;
+    text-align: center;
+    padding: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    animation: bounce1 1s;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.whatsApp {
+    position: fixed;
+    right: 20px; 
+    bottom: 20px;
+    z-index: 1000;
+}
+
+@keyframes bounce1 {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form>input,.buttonSubmit,textarea {
+        width: 13rem;
+        height: 0.9rem;
+        margin-top: 13px;
+        padding: 10px;
+    }
+    textarea {
+        height: 4rem;
+        resize: none;
+    }
+    .buttonSubmit {
+        width: 11rem;
+        height: 1.8rem;
+        text-align: center;
+        padding: 0;
+        border-radius: 20px;
+        font-size: 16px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        animation: bounce1 1s;
+    }
+    .contactme {
+        border-bottom: 2px solid white;
+        padding: 8px;
+        font-size: 22px;
+        font-weight: bolder;
+        animation: bounce1 1s;
+    }
+    .social-contact {
+        margin-right: 10px;
+    }
+    .social-contact>div {
+        margin: 9px;
+    }
+}
