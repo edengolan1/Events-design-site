@@ -10,12 +10,12 @@
     height: 99%;
 }
 .image1 {
-    background-image: url('C://ProjectsToOthers//עצמי//wedding//src//assets//image-wedding.jpg');
+    background-image: url('C://ProjectsToOthers//עצמי//wedding//public//assets//image-wedding.jpg');
     background-repeat: round;
     opacity: 0.8;
 }
 .image2{
-    background-image: url('C://ProjectsToOthers//עצמי//wedding//src//assets//image-wedding2.jpg');
+    background-image: url('C://ProjectsToOthers//עצמי//wedding//public//assets//image-wedding2.jpg');
     background-repeat: round;
     opacity: 0.8;
     font-size: 41px;
@@ -26,7 +26,7 @@
     align-items: center;
 }
 .image3{
-    background-image: url('C://ProjectsToOthers//עצמי//wedding//src//assets//image-wedding3.jpg');
+    background-image: url('C://ProjectsToOthers//עצמי//wedding//public//assets//image-wedding3.jpg');
     background-repeat: round;
     opacity: 0.8;
 }
