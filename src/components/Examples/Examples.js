@@ -2,12 +2,13 @@ import React from 'react';
 import { useState } from 'react';
 import './Examples.css';
 import { motion } from "framer-motion";
-import image1 from '../../assets/1.jpg';
-import image2 from '../../assets/2.jpg';
-import image3 from '../../assets/3.jpg';
-import image4 from '../../assets/4.jpg';
-import image5 from '../../assets/5.jpg';
-import image6 from '../../assets/6.jpg';
+
+const image1 = '/assets/1.jpg';
+const image2 = '/assets/2.jpg';
+const image3 = '/assets/3.jpg';
+const image4 = '/assets/4.jpg';
+const image5 = '/assets/5.jpg';
+const image6 = '/assets/6.jpg';
 
 const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
 const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
