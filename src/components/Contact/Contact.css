@@ -54,6 +54,7 @@ textarea {
     background-color: whitesmoke;
     cursor: pointer;
     animation: bounce1 1s;
+    color: black;
 }
 .form {
     display: flex;
