@@ -37,9 +37,9 @@ textarea {
     resize: none;
 }
 .div-button :hover {
-    background-color: black;
     color: white;
     border: 1px solid whitesmoke;
+    background-size: 100% 100%
 }
 .div-button {
     margin-top: 7px;
@@ -55,6 +55,10 @@ textarea {
     cursor: pointer;
     animation: bounce1 1s;
     color: black;
+    background-image: linear-gradient(to right, black 0%, black 0%);
+    background-size: 0% 100%; 
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease;
 }
 .form {
     display: flex;
